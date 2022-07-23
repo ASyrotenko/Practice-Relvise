@@ -314,6 +314,72 @@ button {
 }
 
 .practice-img {
-  margin-top: 30px;
   display: block;
+}
+
+/* --------------------- ABOUT US --------------------- */
+
+.about {
+  padding: 100px 0;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(57 / 40);
+  text-align: center;
+  color: var(--text-title-color);
+}
+
+.about-text {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: calc(20 / 14);
+  text-align: center;
+}
+
+.about-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.about-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.about-sub-container {
+  margin-left: 120px;
+}
+
+.about-sub-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(57 / 40);
+  color: var(--text-title-color);
+}
+
+.about-sub-text {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: calc(20 / 14);
+}
+
+.about-list {
+  margin-top: 30px;
+}
+
+.about-item {
+  display: flex;
+}
+
+.about-item-container {
+  margin-left: 20px;
+}
+
+.about-item-titel {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.1px;
 }
