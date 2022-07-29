@@ -323,7 +323,8 @@ button {
 /* ----- about us ----- */
 
 .about {
-  padding: 100px 0;
+  padding: 100px 0 136px 0;
+  background-color: var(--bg-secondary-color);
 }
 
 .about-title {
@@ -376,6 +377,10 @@ button {
   display: flex;
 }
 
+.about-item:last-child {
+  margin-top: 30px;
+}
+
 .about-item-container {
   margin-left: 20px;
 }
@@ -393,4 +398,72 @@ button {
   font-weight: 600;
   font-size: 14px;
   line-height: calc(24 / 14);
+}
+
+/* ----- clients ----- */
+
+.clients {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.clients-list-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  gap: 30px;
+}
+
+/* ----- get in touch ----- */
+
+.touch {
+}
+.container {
+}
+
+.touch-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(57 / 40);
+  color: var(--text-title-color);
+  text-align: center;
+}
+
+.touch-text {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(20 / 14);
+  text-align: center;
+}
+
+.touch-list {
+  display: flex;
+  margin-top: 80px;
+}
+.touch-item {
+  padding: 50px 40px;
+  background-color: var(--bg-secondary-color);
+}
+
+.touch-item:nth-child(even) {
+}
+
+.touch-icon {
+  width: 72px;
+  height: 72px;
+}
+
+.touch-first-mail {
+  display: block;
+  margin-top: 15px;
+}
+.touch-second-mail {
+}
+.touch-list-text {
+}
+.touch-list-btn {
 }
