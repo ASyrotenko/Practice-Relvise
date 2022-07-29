@@ -47,8 +47,7 @@ button {
 }
 
 .container {
-  max-width: 1080px;
-  width: 100%;
+  width: 1080px;
   margin: 0 auto;
   padding: 0 15px;
 
@@ -68,14 +67,18 @@ button {
   overflow: hidden;
 }
 
-/* --------------------- HEADER --------------------- */
+/* ----- header ----- */
 
 .header {
-  padding: 23px 136px;
+  background-image: url(../images/banner-bg.jpg);
+  background-size: 1440px 793px;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .header > .container {
   display: flex;
+  padding: 23px 136px;
 }
 
 .header-logo {
@@ -108,7 +111,7 @@ button {
   line-height: calc(24 / 14);
 }
 
-/* --------------------- BANNER --------------------- */
+/* ----- banner ----- */
 
 .banner-title {
   max-width: 509px;
@@ -154,7 +157,7 @@ button {
   border: 1px solid var(--btn-text-second-color);
 }
 
-/* --------------------- FEATURES --------------------- */
+/* ----- features ----- */
 
 .features {
   padding-top: 0;
@@ -209,7 +212,7 @@ button {
   color: var(--btn-text-main-color);
 }
 
-/* --------------------- EXPERIENCE --------------------- */
+/* ----- experience ----- */
 
 .experience-title {
   font-weight: 700;
@@ -261,7 +264,7 @@ button {
   letter-spacing: 0.1px;
 }
 
-/* --------------------- PRACTICE ADVISE --------------------- */
+/* ----- practice advice ----- */
 
 .practice-container {
   padding: 45px 0;
@@ -317,7 +320,7 @@ button {
   display: block;
 }
 
-/* --------------------- ABOUT US --------------------- */
+/* ----- about us ----- */
 
 .about {
   padding: 100px 0;
