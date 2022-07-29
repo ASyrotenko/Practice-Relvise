@@ -6,6 +6,7 @@
   --btn-bg-main-color: #ff7b47;
   --bg-main-color: #fafafa;
   --bg-secondary-color: #ffffff;
+  --bg-dark-color: #252b42;
 }
 
 body {
@@ -420,8 +421,7 @@ button {
 /* ----- get in touch ----- */
 
 .touch {
-}
-.container {
+  padding-bottom: 148px;
 }
 
 .touch-title {
@@ -442,14 +442,22 @@ button {
 
 .touch-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 80px;
 }
 .touch-item {
   padding: 50px 40px;
   background-color: var(--bg-secondary-color);
+  text-align: center;
+  color: var(--text-title-color);
 }
 
 .touch-item:nth-child(even) {
+  background-color: var(--bg-dark-color);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #ffffff;
 }
 
 .touch-icon {
@@ -458,12 +466,117 @@ button {
 }
 
 .touch-first-mail {
-  display: block;
+  display: inline-block;
   margin-top: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: inherit;
 }
+
 .touch-second-mail {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: inherit;
 }
+
 .touch-list-text {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.1px;
+  color: inherit;
 }
+
 .touch-list-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: inherit;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+
+  border-color: var(--btn-bg-main-color);
+  border-radius: 5px;
+
+  color: var(--btn-bg-main-color);
+}
+
+/* ----- footer ----- */
+
+.contact-us {
+  background-color: var(--bg-secondary-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-us > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(32 / 24);
+  letter-spacing: 0.1px;
+  color: var(--text-title-color);
+}
+
+.contact-us-text {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: calc(20 / 14);
+}
+
+.contact-us-btn {
+  padding: 15px 40px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(28 / 14);
+  color: var(--btn-text-main-color);
+  background-color: var(--btn-bg-main-color);
+  border: none;
+  border-radius: 5px;
+}
+
+.main-info {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--bg-dark-color);
+}
+
+.main-info > .container {
+  display: flex;
+  gap: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--bg-secondary-color);
+}
+
+.main-info-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.1px;
+}
+
+.main-info-sub-list {
+  margin-top: 20px;
+}
+
+.main-info-item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.main-info-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  fill: #8ec2f2;
 }
