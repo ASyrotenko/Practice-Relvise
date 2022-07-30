@@ -451,6 +451,7 @@ button {
   background-color: var(--bg-secondary-color);
   text-align: center;
   color: var(--text-title-color);
+  fill: var(--btn-text-second-color);
 }
 
 .touch-item:nth-child(even) {
@@ -458,6 +459,7 @@ button {
   padding-top: 80px;
   padding-bottom: 80px;
   color: #ffffff;
+  fill: #ffffff;
 }
 
 .touch-icon {
@@ -559,6 +561,11 @@ button {
   color: var(--bg-secondary-color);
 }
 
+.main-info-sub-container:last-child .main-info-link {
+  display: flex;
+  align-items: center;
+}
+
 .main-info-title {
   font-weight: 700;
   font-size: 16px;
@@ -579,4 +586,34 @@ button {
   height: 24px;
   margin-right: 10px;
   fill: #8ec2f2;
+}
+
+.rights {
+  border-color: var(--bg-secondary-color);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.rights > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rights-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+}
+.rights-list {
+  display: flex;
+  gap: 20px;
+}
+.rights-item {
+}
+.rights-link {
+  display: flex;
+  align-items: center;
+}
+.rights-icon {
+  width: 24px;
+  height: 24px;
 }
